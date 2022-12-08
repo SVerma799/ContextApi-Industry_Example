@@ -13,6 +13,7 @@ export function LoginProvider({ children }) {
     <LoginContext.Provider
       value={{ userName, setUserName, showProfile, setShowProfile }}
     >
+        
       {children}
     </LoginContext.Provider>
   );
